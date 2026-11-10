@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Code tutor",
+    "description": "Loads itself when you ask about code: one short paragraph on what it does, the syntax it uses, then a concise line-by-line walkthrough."
+  }
+}

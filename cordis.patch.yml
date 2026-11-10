@@ -1,0 +1,4 @@
+- insert:
+    - id: code-tutor
+      name: '@local/code-tutor'
+      config: {}

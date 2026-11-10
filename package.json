@@ -1,0 +1,23 @@
+{
+  "name": "@local/code-tutor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Detailed code-explanation skill that is loaded automatically when the user asks about code.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
